@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\TKN_0.dir/objects.a
+C:\ProgramData\mingw64\mingw64\bin\ar.exe qc CMakeFiles\TKN_0.dir/objects.a @CMakeFiles\TKN_0.dir\objects1.rsp
+C:\ProgramData\mingw64\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\TKN_0.dir/objects.a -Wl,--no-whole-archive -o TKN_0.exe -Wl,--out-implib,libTKN_0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TKN_0.dir\linkLibs.rsp
